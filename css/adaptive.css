@@ -180,7 +180,7 @@
 
 
 
-@media only screen and (max-width:800px) and (min-width: 412px) {
+@media only screen and (max-width:800px) and (min-width: 500px) {
 
 .display-1{
     display: none;
@@ -273,6 +273,12 @@
 .max--w--270{
     max-width: 270px;
 }
+.padding_-20{
+    padding: 20px
+}
+.margin--0{
+    margin: 0;
+}
 
 
 
@@ -322,10 +328,13 @@
 
 
 
-@media screen and (max-width:411px) {
+@media only screen and (max-width:500px) and (min-width: 320px) {
 
 .display-none{
     display: none;
+}
+.width-_100{
+    width: 100%;
 }
 .display-block{
     display: block;
@@ -370,6 +379,9 @@ text-transform: uppercase;
 }
 .pt-180{
     padding-top: 180px;
+}
+.p-_15{
+    padding: 15px;
 }
 .p-btn--main{
     padding: 11px 23px;
@@ -552,25 +564,28 @@ max-width: 81px;
     padding: 19px;
 }
 input[type="text"]{
-    width: 315px;
+    width: 100%;
     height: 138px;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin: 0 auto;
 }
 input[type="text_"]{
-    width: 315px;
+    width: 100%;
     height: 46px;
-    margin-left: 32px;
-    margin-right: 0;
+    margin: 0 auto;
+    margin-top: 8px;
 }
 input[type="text__"]{
-    width: 315px;
+    width: 100%;
     height: 46px;
-    margin-left: 32px;
-    margin-right: 0;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 5px;
 }
 .glass-form{
-    width: 378px;
+    width: 100%;
+}
+.white_border{
+    width: 100%;
 }
 
 }
